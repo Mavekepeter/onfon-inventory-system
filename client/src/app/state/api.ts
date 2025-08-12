@@ -45,6 +45,7 @@ export interface ExpenseSummary{
     expenseSummeryId:string;
     amount:string;
     date:string;
+    totalExpenses:string
 }
 export interface Users{
     name:string;
