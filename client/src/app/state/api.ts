@@ -31,6 +31,7 @@ export interface ExpenseByCategorySummary{
     expenseByCategorySummeryId:string;
     category:string;
     date:string;
+    amount:string
 }
 export interface DashboardMetrics{
     popularProducts:Product[];
